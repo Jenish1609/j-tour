@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Monoton&family=Montserrat&family=Philosopher&display=swap" rel="stylesheet">
+    <title>jenish akoliya</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+
+  <body>
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light px-4 text-center border-bottom">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2 title" href="#">J-<span class="brand-color title-2">Tour</span></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto fs-5">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-us">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#tours"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Tours
+                </a>
+                <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#domestic">domestic</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#international">Internationl</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#our-team">Our-team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section id="home">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1542856391-010fb87dcfed?ixlib=rb-4.0.3&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://wallpaperaccess.com/full/43867.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://wallpaperaccess.com/full/31192.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="about-us">
+      <div class="container my-5">
+        <div>
+          <h1 class="text-center mt-5">about <span class="brand-color">us</span></h1>
+          <hr class="w-25 m-auto">
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="about text-center my-3">
+                <h1>what do you wanna know</h1>
+                <p class="p">A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic.</p>
+                <button type="button" class="btn btn-lg btn-primary my-3">for more</button>
+              </div>
+
+              <div class="Accordion">
+                <div class="accordion my-3" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        europe tour
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Domestic Tour
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Other International tour
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <img class="img-fluid img-thumbnail my-4 mx-2" src="https://media.istockphoto.com/id/1097490528/photo/famous-old-town-historic-castle-square-in-capital-city-during-sunny-summer-day-crowd-of.jpg?s=612x612&w=0&k=20&c=QwFB3_b3n1FAB5lBU92NqKExLxx5Wjblz2AqNcqQ4jY=" alt="">
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tours bg-light">
+      <div class="container my-5">
+        <div class="mt-5">
+          <h1 class="text-center mt-5">upcomig <span class="brand-color">Tour</span></h1>
+          <hr class="w-25 m-auto">
+        </div>
+        <div class="">
+          <h3 id="domestic" class="text my-4"><span class="brand-color">D</span>omestic : </h3>
+          
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+              <div class="card" style="width: 18rem;">
+                <img src="https://wallpaperaccess.com/full/6883014.jpg" class="card-img-top iimmgg" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kedarnath</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Know more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+              <div class="card" style="width: 18rem;">
+                <img src="https://wallpapercave.com/wp/wp5392749.jpg" class="card-img-top iimmgg" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ooty</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Know more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+              <div class="card" style="width: 18rem;">
+                <img src="https://www.mwallpapers.com/download-image/805948/1080x608" class="card-img-top iimmgg" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Goa</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Know more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+              <div class="card" style="width: 18rem;">
+                <img src="https://media.istockphoto.com/id/1218830644/photo/beautiful-lake.jpg?s=612x612&w=0&k=20&c=r5or5KmtrZE5P93cDPG2FzxWQxhZA0qeTInoXJ7qXxA=" class="card-img-top iimmgg" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Leh-Ladakh</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Know more</a>
+                </div>
+              </div>
+            </div>
+
+            <h3 id="international" class="text my-4"><span class="brand-color">I</span>nternational : </h3>
+          
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+              <div class="card" style="width: 18rem;">
+                <img src="https://c4.wallpaperflare.com/wallpaper/67/283/725/night-lights-in-dubai-wallpaper-preview.jpg" class="card-img-top iimmgg" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dubai</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Know more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+              <div class="card" style="width: 18rem;">
+                <img src="https://www.xtrafondos.com/en/descargar.php?id=7540&resolucion=3840x2162" class="card-img-top iimmgg" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">London</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Know more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+              <div class="card" style="width: 18rem;">
+                <img src="https://wallpaper.dog/large/962624.jpg" class="card-img-top iimmgg" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Japan</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Know more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+              <div class="card" style="width: 18rem;">
+                <img src="https://free4kwallpapers.com/uploads/originals/2017/10/19/assassins-creed-origins-egypt-4k-wallpaper.jpg" class="card-img-top iimmgg" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Egypt</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Know more</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </section>
+
+    <section id="our-team" class="py-2">
+      <div class="container">
+        <div>
+          <h1 class="text-center mt-5">Our <span class="brand-color">Team</span></h1>
+          <hr class="w-25 m-auto">
+        </div>
+
+        <div class="row my-5">
+          <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top iiimmm" src="https://media-exp1.licdn.com/dms/image/D4D03AQGrdl8Eh6su9A/profile-displayphoto-shrink_400_400/0/1670145518187?e=1675900800&v=beta&t=ynF-2HgaSoMyX6STm6jSGsP_B_3dcumJMhNjZPgGlZc"  alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jenish Akoliya</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Founder of j-tour</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">linkdin</a>
+                <a href="#" class="card-link">twitter</a> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top iiimmm" src="https://media-exp1.licdn.com/dms/image/C4D03AQGSsgB6tNIzBw/profile-displayphoto-shrink_400_400/0/1650783450720?e=1675900800&v=beta&t=c6PExYPeGEJZD_RsnHoelCXMnwH-uXpSYR7vmR9X_3A" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">nikhil bhalala</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">co-Founder of j-tour</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">linkdin</a>
+                <a href="#" class="card-link">twitter</a> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+            <div class="card" style="width: 18rem;">
+              <img src="https://media-exp1.licdn.com/dms/image/D4D03AQGVk-jbcTdmLQ/profile-displayphoto-shrink_400_400/0/1669051719649?e=1675900800&v=beta&t=Q8ijI774Gu9Bwlf7t0rvr9VB44xL9qx9O_MGKCrHN_M" class="card-img-top iiimmm" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">prince golakiya</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">co-founder of j-tour</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">linkdin/a>
+                <a href="#" class="card-link">twitter</a> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-3 my-2">
+            <div class="card" style="width: 18rem;">
+              <img src="https://wallpapercave.com/wp/wp6975080.jpg" class="card-img-top iiimmm" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">tim cook</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">worker of j-tour</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">linkdin</a>
+                <a href="#" class="card-link">twitter</a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="my-10">
+      <div class="container">
+        <div>
+          <h1 class="text-center mt-5">place <span class="brand-color">Enquiry</span></h1>
+          <hr class="w-25 m-auto">
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6 my-5">
+            <form>
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Name :</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="full name">
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">where you want to travel :</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="place(ex : dubai,etc..)">
+              </div>
+              <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <fieldset class="row mb-3">
+                <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      platinum plan
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      gold plan
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                    <label class="form-check-label" for="gridRadios3">
+                      silver plan
+                    </label>
+                  </div>
+                </div>
+              </fieldset>
+              <button type="submit" class="btn btn-primary">place your enquiry</button>
+            </form>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <img class="img-fluid my-5" src="https://media.istockphoto.com/id/1401819160/vector/travel-to-world-open-book-with-landmarks.jpg?s=612x612&w=0&k=20&c=FIhvK7p7imV6-mTGZVhtvsPUyGeoYr7jlSojDBrhG54=" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div class="container-fluid bg-primary text-white text-center py-3">developed by &hearts; Jenish Akoliya</div>
+  </body>
+</html>
